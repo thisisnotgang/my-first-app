@@ -14,7 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Layout />}>
           {/* INDEX 엘리먼트 : App.jsx */}
           <Route index element={<App />} /> 
-
           {/* PATH 엘리먼트 */}
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
